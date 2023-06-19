@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="forms.css"/>
+</head>
+<body>
+<div id="interface">
+    <header id="cabecalho">
+        <h1>Área de TI</h1>
+        <img id="icone" src="logo.png">
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cd.html">Cientista de Dados</a></li>
+                <li><a href="as.html">Arquiteto de Soluções</a></li>
+                <li><a href="eia.html">Especialista em IA</a></li>
+                <li><a href="info.html">Informações</a></li>
+                <li><a href="fale-conosco.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article id="pagina-inicial">
+        <hgroup id="cabecalho-pi-ti">
+            <h1>Saiba 3 profissões da área de TI</h1>
+            <h2>por Gabriel Andrade</h2>
+            <h3>Tecnologia > TI</h3>
+            <h3>Criado em 12/Junho/2023</h3>
+        </hgroup>
+        <h1>Fale Conosco</h1>
+        <p>Se você tiver alguma dúvida sobre o conteúdo, nossa empresa. Ou dicas de cursos para se especializar em audiovisual ou TI, e até vagas de estágios aqui em nossa empresa. Mande sua mensagem aqui em baixo:</p>
+        <form method="post" id="idContato" action="mailto:gabrielsilvaandrade2612@gmail.com" oninput="calc_total()">
+            <fieldset id="idMensagem">
+                <legend>Mensagem do Usuário</legend>
+                <p><label for="idMsg">Mensagem:</label>
+                    <textarea name="nMsg" id="idMsg" cols="45" rows="5" maxlength="250" placeholder="Deixe aqui sua mensagem"></textarea>
+                </p>
+            </fieldset>
+            <input type="image" src="enviar.jfif" name="nEnviar">
+        </form>
+    </article>
+
+    <footer id="rodape">
+       <p>Aqui as nossas redes sociais para acompanharem nossas atualizações <br><a href="http://www.instagram.com" target="_blank">Intagram</a>|<a href="http://www.youtube.com" target="_blank">Youtube</a></p>
+    </footer>
+</div>
+</body>
+</html>

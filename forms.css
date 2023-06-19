@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+form {
+    width: 500px; /* largura */
+    margin: auto; /* centralizar */
+}
+
+fieldset {
+    border-color: #cecece; /* Cinza claro */
+    margin: 20px;
+}
+
+legend {
+    color: #888; /* Texto cinza escuro */
+    font-weight: bolder; /* negrito */
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+

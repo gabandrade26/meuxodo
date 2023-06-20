@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 img#corpo-image {
-    width: 70%;
+    width: 50%;
     position:relative;
+    left: 300px;
 }

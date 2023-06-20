@@ -148,3 +148,8 @@ article#pagina-inicial h3.ti {
 ul#corpo-lista {
     font-family: 'Berlin Sans FB', sans-serif;
 }
+
+img#corpo-video {
+    position: relative;
+    left: 500px;
+}
